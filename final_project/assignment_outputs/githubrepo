@@ -1,3 +1,0 @@
-curl -s https://api.github.com/repos/vijaygopale23/expressBookReviews | python -c "import sys, json; data=json.load(sys.stdin); print(data['parent']['full_name'])"
-
-ibm-developer-skills-network/expressBookReview
